@@ -1,11 +1,11 @@
 {
-    "name": "NandrajRathod",
-    "short_name": "NandrajRathod",
+    "name": "Nandraj Rathod",
+    "short_name": "Nandraj Rathod",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "description": "Nandraj Rathod Personal Website.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
