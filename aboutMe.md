@@ -20,7 +20,8 @@ Website: [nandraj.github.io](https://nandraj.github.io/#/)
 [Flask step by step - Udemy](https://www.udemy.com/certificate/UC-FFJZH374/) \
 [Python Flask for beginners - Udemy](https://www.udemy.com/certificate/UC-7c6d00e5-f008-44a4-af59-69dc4b3a8b9e/) \
 [Introduction to DataScience using python - Udemy](https://www.udemy.com/certificate/UC-OKXGKI0H/) \
-[Learn data analysis using pandas and python - Udemy](https://www.udemy.com/certificate/UC-HX6CBGHW/)
+[Learn data analysis using pandas and python - Udemy](https://www.udemy.com/certificate/UC-HX6CBGHW/) \
+[Python OOP - Udemy](https://www.udemy.com/certificate/UC-671d0017-c0db-4d73-8315-f9a284ea4c34/)
 
 ### SQL
 [Introduction to SQL - Kaggle](https://www.kaggle.com/learn/certification/nandrajrathod/intro-to-sql) \
