@@ -7,8 +7,8 @@ Medium (Blogs): [@nandraj.rathod.009](https://medium.com/@nandraj.rathod.009) \
 HackerRank : [@nandraj_rathod](https://www.hackerrank.com/nandraj_rathod?hr_r=1) \
 Reddit: [@nandrajrathod](https://www.reddit.com/user/nandrajrathod) \
 Kaggle: [@nandrajrathod](https://www.kaggle.com/nandrajrathod) \
-Github: [@Nandraj](https://github.com/Nandraj) \
-Website: [nandraj.github.io](https://nandraj.github.io/#/)
+Github: [@Nandraj](https://github.com/Nandraj)
+<!-- Website: [nandraj.github.io](https://nandraj.github.io/#/) -->
 
 ## Certificates
 ### Python 
@@ -30,7 +30,8 @@ Website: [nandraj.github.io](https://nandraj.github.io/#/)
 
 ### Flutter
 [Introduction to flutter development - The App Brewery](https://pbs.twimg.com/media/Ea9sZJ4UMAAQLkh?format=jpg&name=large) \
-[Introduction to Dart - Udemy](https://www.udemy.com/certificate/UC-W9NMCNDS/)
+[Introduction to Dart - Udemy](https://www.udemy.com/certificate/UC-W9NMCNDS/) \
+[Learn Dart Programming for Flutter - Udemy](https://www.udemy.com/certificate/UC-f53f5813-1687-496e-8722-b3567e12d26e/)
 
 ### Web Technologies
 [Responsive web design - FreeCodeCamp](https://www.freecodecamp.org/certification/nandrajrathod/responsive-web-design) \
