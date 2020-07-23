@@ -48,7 +48,7 @@ Github: [@Nandraj](https://github.com/Nandraj)
 ## Projects
 (# - Project in development)
 
-### Websites/Web Apps (+PWAs)
+### Websites / Web Apps (+PWAs)
 [www.hrtotal.in](https://hrtotal.in/) \
 [www.parthschooldadva.in](https://parthschooldadva.in/) \
 [nandraj.github.io](https://nandraj.github.io/#/)# \
@@ -61,5 +61,6 @@ Github: [@Nandraj](https://github.com/Nandraj)
 
 
 ### Desktop Apps
+[GST Auto (Client Access & Login Tool)](https://github.com/Nandraj/GST_Auto_PyQt#gst-auto-pyqt5-version) \
 [GST Stmt-1A Generator](https://github.com/Nandraj/GSTIndia#statement-1a-excel-to-json-generator) \
-[GSTR-2A Excel Formatter](https://github.com/Nandraj/GSTIndia#gstr-2a-excel-formatter) 
+[GSTR-2A Excel Formatter](https://github.com/Nandraj/GSTIndia#gstr-2a-excel-formatter)
