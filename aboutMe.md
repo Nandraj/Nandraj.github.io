@@ -14,6 +14,7 @@ Github: [@Nandraj](https://github.com/Nandraj)
 ### Python 
 [Introduction to Python - DataCamp](https://www.datacamp.com/statement-of-accomplishment/course/4b543e8abd1c7eaba140c2977057dd803649c26c) \
 [Python - Kaggle](https://www.kaggle.com/learn/certification/nandrajrathod/python) \
+[Python Core & Advance - Udemy](https://www.udemy.com/certificate/UC-2c4e0085-0da8-42f8-aa01-fcaf7771a490/) \
 [Data Visualization - Kaggle](https://www.kaggle.com/learn/certification/nandrajrathod/data-visualization) \
 [Python 3 - SoleLearn](https://www.sololearn.com/Certificate/1073-10770741/pdf/) \
 [Introduction to Python Programming - Udemy](https://www.udemy.com/certificate/UC-FC0ZMEXH/) \
