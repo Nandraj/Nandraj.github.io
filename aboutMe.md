@@ -22,7 +22,8 @@ Github: [@Nandraj](https://github.com/Nandraj)
 [Python Flask for beginners - Udemy](https://www.udemy.com/certificate/UC-7c6d00e5-f008-44a4-af59-69dc4b3a8b9e/) \
 [Introduction to DataScience using python - Udemy](https://www.udemy.com/certificate/UC-OKXGKI0H/) \
 [Learn data analysis using pandas and python - Udemy](https://www.udemy.com/certificate/UC-HX6CBGHW/) \
-[Python OOP - Udemy](https://www.udemy.com/certificate/UC-671d0017-c0db-4d73-8315-f9a284ea4c34/)
+[Python OOP - Udemy](https://www.udemy.com/certificate/UC-671d0017-c0db-4d73-8315-f9a284ea4c34/) \
+[Automate the boring stuff with python](https://udemy-certificate.s3.amazonaws.com/pdf/UC-b0950a16-f9b3-4448-92cf-223587bd14cf.pdf)
 
 ### SQL
 [Introduction to SQL - Kaggle](https://www.kaggle.com/learn/certification/nandrajrathod/intro-to-sql) \
