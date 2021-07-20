@@ -1,14 +1,90 @@
+
 <!DOCTYPE html>
-<html lang="en">
-  
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <link rel="stylesheet" href="" />
+    <link rel="stylesheet" href="src/styles.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Nandraj</title>
+    <meta charset="UTF-8" />
   </head>
-  
   <body>
-    <h1>NR's Website Under Development...</h1>
+      <section class="hero">
+          <nav>
+              <img class="logo" src="src/images/NRlogo.png" alt="Nandraj Rathod's logo"/>
+              <ul id="nav-list">
+                  <li><a href="#about-me">About me</a></li>
+                  <li><a href="#projects">Projects</a></li>
+                  <li><a href="#contact-me">Contact</a></li>
+              </ul>
+              <button class="hamburger" id="hamburger">
+                  <i class="fas fa-bars"></i>
+              </button>
+          </nav>
+          <div class="hero-area">
+            <div class="hero-text">
+                <h1>Nandraj Rathod</h1>
+                <p>Full Stack Developer</p>
+                <div class="button"><a href="#about-me">About me</a></div>
+            </div>
+            <div class="socials">
+                <div><a href="https://www.twitter.com/nr_mdhl" class="social">
+                    <i class="fab fa-twitter fa-lg"></i>
+                </a></div>
+                <div><a href="https://www.github.com/Nandraj"  class="social">
+                    <i class="fab fa-github fa-lg"></i>
+                </a></div>
+                <div><a href="https://in.linkedin.com/in/nandraj-rathod"  class="social">
+                    <i class="fab fa-linkedin-in fa-lg"></i>
+                </a></div>
+            </div>
+          </div>
+      </section>
+      <section class="sub-section" id="about-me">
+          <div class="information">
+              <h2>About Me</h2>
+              <p>Hello, My name is Nandraj Rathod. I am a full stack web developer using Python Django + ReactJS.</p>
+          </div>
+          <div class="headshot-container">
+              <img class="headshot" src="https://avatars.githubusercontent.com/u/26266562?v=4" alt="Nandraj Rathod's headshot"/>
+          </div>
+      </section>
+      <section class="sub-section-alternative" id="projects">
+          <h2>Projects</h2>
+          <div class="project-container">
+              <div class="project-card">
+                  <h3>Robbin</h3>
+                  <p class="subtext">Task/Work Management Web Based Solution for Finance and Legal Consultants.</p>
+                  <hr/>
+                  <p class="subtext"><a class="project-link" href="https://github.com/Nandraj/Robbin">View here</a></p>
+              </div>
+              <div class="project-card">
+                <h3>3R Kids Mobile App</h3>
+                <p class="subtext">Mobile app for kinder garden children developed for 3R Coaching Classes.</p>
+                <hr/>
+                <p class="subtext"><a class="project-link" href="https://github.com/Nandraj/ThreeR_Kids_Nativescript_App">View here</a></p>
+              </div>
+              <div class="project-card">
+                <h3>GST Auto</h3>
+                <p class="subtext">GST (India) Client Data Access and Login Tool developed with PyQt5.</p>
+                <hr/>
+                <p class="subtext"><a class="project-link" href="https://github.com/Nandraj/GST_Auto_PyQt">View here</a></p>
+              </div>
+              <div class="project-card">
+                <h3>Stylista Fashion Shop</h3>
+                <p class="subtext">Single vendor e-commerce platform. Written with Flask backend with MySQL database.</p>
+                <hr/>
+                <p class="subtext"><a class="project-link" href="https://stylista007.in/">View here</a></p>
+              </div>
+          </div>
+      </section>
+      <footer id="contact-me">
+          <h2>Contact me</h2>
+          <p>rathodnandraj@gmail.com</p>
+          <p>+91 851190 6562</p>
+      </footer>
+    <script src="src/app.js"></script>
   </body>
-  
 </html>
