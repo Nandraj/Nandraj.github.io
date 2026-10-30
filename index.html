@@ -1,90 +1,400 @@
-
 <!DOCTYPE html>
-<html>
-  <head>
-    <link rel="stylesheet" href="src/styles.css" />
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Nandraj</title>
-    <meta charset="UTF-8" />
-  </head>
-  <body>
-      <section class="hero">
-          <nav>
-              <img class="logo" src="src/images/NRlogo.png" alt="Nandraj Rathod's logo"/>
-              <ul id="nav-list">
-                  <li><a href="#about-me">About me</a></li>
-                  <li><a href="#projects">Projects</a></li>
-                  <li><a href="#contact-me">Contact</a></li>
-              </ul>
-              <button class="hamburger" id="hamburger">
-                  <i class="fas fa-bars"></i>
-              </button>
-          </nav>
-          <div class="hero-area">
-            <div class="hero-text">
-                <h1>Nandraj Rathod</h1>
-                <p>Full Stack Developer</p>
-                <div class="button"><a href="#about-me">About me</a></div>
-            </div>
-            <div class="socials">
-                <div><a href="https://www.twitter.com/nr_mdhl" class="social">
-                    <i class="fab fa-twitter fa-lg"></i>
-                </a></div>
-                <div><a href="https://www.github.com/Nandraj"  class="social">
-                    <i class="fab fa-github fa-lg"></i>
-                </a></div>
-                <div><a href="https://in.linkedin.com/in/nandraj-rathod"  class="social">
-                    <i class="fab fa-linkedin-in fa-lg"></i>
-                </a></div>
-            </div>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Primary SEO meta -->
+  <title>Nandraj Rathod | Python &amp; Full-Stack Developer | Portfolio</title>
+  <meta name="description" content="Nandraj Rathod — Python &amp; full-stack developer with 13+ years of experience. Expert in Django, Flask, FastAPI, GCP, RESTful APIs, web scraping, automation and GenAI. Explore projects &amp; download CV." />
+  <meta name="keywords" content="Nandraj Rathod, Python developer, full-stack developer, Django, Flask, FastAPI, GCP, backend development, RESTful APIs, web scraping, automation, data analytics, GenAI, LLM, RAG, LangChain, portfolio, CV" />
+  <meta name="robots" content="index, follow" />
+  <meta name="theme-color" content="#0a0e1a" />
+  <link rel="canonical" href="https://nandraj.github.io/" />
+
+  <!-- Open Graph (Facebook / LinkedIn sharing) -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Nandraj Rathod" />
+  <meta property="og:title" content="Nandraj Rathod | Python &amp; Full-Stack Developer" />
+  <meta property="og:description" content="Python &amp; full-stack developer with 13+ years of experience in backend, APIs, automation and GenAI." />
+  <meta property="og:url" content="https://nandraj.github.io/" />
+  <meta property="og:image" content="https://avatars.githubusercontent.com/u/26266562?v=4" />
+  <meta property="og:image:width" content="800" />
+  <meta property="og:image:height" content="800" />
+  <meta property="og:locale" content="en_US" />
+
+  <!-- Twitter (X) card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Nandraj Rathod | Python &amp; Full-Stack Developer" />
+  <meta name="twitter:description" content="Python &amp; full-stack developer with 13+ years of experience in backend, APIs, automation and GenAI." />
+  <meta name="twitter:image" content="https://avatars.githubusercontent.com/u/26266562?v=4" />
+  <meta name="twitter:creator" content="@nandraj_rathod" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ───────────────────────── NAV ───────────────────────── -->
+  <header class="nav">
+    <div class="wrap nav-inner">
+      <a class="logo" href="#home">NR<span class="logo-dot">.</span></a>
+      <nav class="menu" id="menu">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ───────────────────────── HERO ───────────────────────── -->
+  <section id="home" class="hero">
+    <div class="glow" aria-hidden="true"></div>
+    <div class="wrap hero-inner">
+      <div class="hero-text">
+        <p class="eyebrow">// hello_world.py</p>
+        <h1>Nandraj <span class="grad">Rathod</span></h1>
+        <p class="typewriter" id="typewriter"></p>
+        <p class="lead">
+          Python &amp; full-stack developer with 13+ years of industry experience,
+          building scalable backends, APIs, automation and analytics
+          solutions with Python, Django, Flask, FastAPI and GCP.
+        </p>
+        <div class="hero-cta">
+          <a class="btn btn-primary" href="assets/cv.pdf" download>Download CV</a>
+          <a class="btn btn-ghost" href="mailto:rathodnandraj@gmail.com">Get in touch</a>
+        </div>
+        <ul class="stats">
+          <li><span class="stat-num">13+</span><span class="stat-lbl">Years in industry</span></li>
+          <li><span class="stat-num">6+</span><span class="stat-lbl">Years as Python Dev</span></li>
+          <li><span class="stat-num">10+</span><span class="stat-lbl">Projects shipped</span></li>
+        </ul>
+      </div>
+      <div class="hero-photo">
+        <img src="assets/nr.jpg" alt="Nandraj Rathod, professional headshot" />
+        <div class="photo-ring" aria-hidden="true"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ───────────────────────── ABOUT ───────────────────────── -->
+  <section id="about" class="sec">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="sec-kicker">01</span>
+        <h2>About me</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-card reveal">
+          <p class="lead-about">
+            I am passionate about software development and eager to explore new
+            technologies. With 13+ years of industry experience — including 6 years
+            as a Python Developer — I have specialized in backend and web development,
+            while also working on web scraping, automation and analytics.
+          </p>
+          <p>
+            I bring a strong understanding of full-stack web development, with
+            deep expertise in backend technologies like <b>Flask, Django, SQL, ORM,
+            database design, GCP and RESTful APIs</b>, alongside working knowledge of
+            frontend tools such as <b>HTML, CSS, Bootstrap, JavaScript and React</b>.
+            I'm proficient in <b>Git, Linux and Jira</b>, and I bring both technical
+            depth and strong communication skills to cross-functional teams.
+            I've also been working with GenAI — building with <b>LLMs, RAG
+            pipelines and LangChain</b> in production SaaS products.
+          </p>
+          <ul class="about-facts">
+            <li>📍 Rajkot, Gujarat, India</li>
+            <li>💼 Backend · Web · Automation · Analytics</li>
+            <li>🚀 Comfortable with new tech — always trying it out</li>
+          </ul>
+        </div>
+        <aside class="about-side reveal">
+          <div class="card-fact">
+            <span class="fact-k">Current role</span>
+            <strong>Python · AWS · GenAI Consultant</strong>
+            <span class="fact-v">SecureKloud Tech. Ltd., Chennai</span>
           </div>
-      </section>
-      <section class="sub-section" id="about-me">
-          <div class="information">
-              <h2>About Me</h2>
-              <p>Hello, My name is Nandraj Rathod. I am a full stack web developer using Python Django + ReactJS.</p>
+          <div class="card-fact">
+            <span class="fact-k">Core focus</span>
+            <strong>Python backend &amp; APIs</strong>
+            <span class="fact-v">Django · Flask · GCP · SQLAlchemy · FastAPI</span>
           </div>
-          <div class="headshot-container">
-              <img class="headshot" src="https://avatars.githubusercontent.com/u/26266562?v=4" alt="Nandraj Rathod's headshot"/>
+          <div class="card-fact">
+            <span class="fact-k">Bonus skills</span>
+            <strong>Web scraping · Automation · Data analytics</strong>
+            <span class="fact-v">Selenium · BeautifulSoup · Pandas · Matplotlib</span>
           </div>
-      </section>
-      <section class="sub-section-alternative" id="projects">
-          <h2>Projects</h2>
-          <div class="project-container">
-              <div class="project-card">
-                  <h3>Robbin</h3>
-                  <p class="subtext">Task/Work Management Web Based Solution for Finance and Legal Consultants.</p>
-                  <hr/>
-                  <p class="subtext"><a class="project-link" href="https://github.com/Nandraj/Robbin">View here</a></p>
-              </div>
-              <div class="project-card">
-                <h3>3R Kids Mobile App</h3>
-                <p class="subtext">Mobile app for kinder garden children developed for 3R Coaching Classes.</p>
-                <hr/>
-                <p class="subtext"><a class="project-link" href="https://github.com/Nandraj/ThreeR_Kids_Nativescript_App">View here</a></p>
-              </div>
-              <div class="project-card">
-                <h3>GST Auto</h3>
-                <p class="subtext">GST (India) Client Data Access and Login Tool developed with PyQt5.</p>
-                <hr/>
-                <p class="subtext"><a class="project-link" href="https://github.com/Nandraj/GST_Auto_PyQt">View here</a></p>
-              </div>
-              <div class="project-card">
-                <h3>Stylista Fashion Shop</h3>
-                <p class="subtext">Single vendor e-commerce platform. Written with Flask backend with MySQL database.</p>
-                <hr/>
-                <p class="subtext"><a class="project-link" href="https://stylista007.in/">View here</a></p>
-              </div>
+          <div class="card-fact">
+            <span class="fact-k">Reach me</span>
+            <a class="fact-link" href="mailto:rathodnandraj@gmail.com">rathodnandraj@gmail.com</a>
+            <span class="fact-v">or +91 851190 6562</span>
           </div>
-      </section>
-      <footer id="contact-me">
-          <h2>Contact me</h2>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- ───────────────────────── SKILLS ───────────────────────── -->
+  <section id="skills" class="sec sec-alt">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="sec-kicker">02</span>
+        <h2>Tech stack</h2>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-group reveal">
+          <h3 class="skill-title">Backend &amp; APIs</h3>
+          <ul class="chips">
+            <li>Django</li><li>Flask</li><li>FastAPI</li><li>RESTful APIs</li>
+            <li>Serverless</li><li>Micro-services</li><li>Application design</li>
+          </ul>
+        </div>
+        <div class="skill-group reveal">
+          <h3 class="skill-title">Databases &amp; Data</h3>
+          <ul class="chips">
+            <li>SQL</li><li>MySQL</li><li>PostgreSQL</li><li>ORM</li>
+            <li>SQLAlchemy</li><li>DB Design</li><li>Pandas</li>
+            <li>Matplotlib</li><li>Data Analytics</li>
+          </ul>
+        </div>
+        <div class="skill-group reveal">
+          <h3 class="skill-title">Cloud &amp; Infra</h3>
+          <ul class="chips">
+            <li>GCP</li><li>AWS</li><li>Linux</li><li>Git</li>
+            <li>Version Control</li><li>Jira</li><li>Agile</li>
+          </ul>
+        </div>
+        <div class="skill-group reveal">
+          <h3 class="skill-title">Frontend</h3>
+          <ul class="chips">
+            <li>HTML</li><li>CSS</li><li>Bootstrap</li><li>JavaScript</li>
+            <li>jQuery</li><li>React (basic)</li>
+          </ul>
+        </div>
+        <div class="skill-group reveal">
+          <h3 class="skill-title">Automation &amp; Scraping</h3>
+          <ul class="chips">
+            <li>Selenium</li><li>BeautifulSoup</li><li>PyQt5</li><li>Eel</li>
+            <li>Nativescript</li><li>Web Scraping</li>
+          </ul>
+        </div>
+        <div class="skill-group reveal">
+          <h3 class="skill-title">AI / ML Exposure</h3>
+          <ul class="chips">
+            <li>GenAI</li><li>LLM</li><li>RAG</li><li>LangChain</li>
+            <li>ML models</li><li>Kaggle projects</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ───────────────────────── EXPERIENCE ────────────────────── -->
+  <section id="experience" class="sec">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="sec-kicker">03</span>
+        <h2>Experience</h2>
+      </div>
+      <div class="timeline">
+        <article class="tl-item reveal">
+          <div class="tl-dot"></div>
+          <div class="tl-body">
+            <span class="tl-dates">Apr 2025 — Present</span>
+            <h3>Python · AWS &amp; GenAI Consultant — Backend Services</h3>
+            <p class="tl-org">SecureKloud Tech. Ltd., Chennai</p>
+            <p class="tl-desc">Backend development for AI-ML SaaS products with Python, Flask, GCP and GenAI — designing and shipping RESTful APIs and micro-services.</p>
+          </div>
+        </article>
+        <article class="tl-item reveal">
+          <div class="tl-dot"></div>
+          <div class="tl-body">
+            <span class="tl-dates">Dec 2024 — Mar 2025</span>
+            <h3>Sr. Software Engineer</h3>
+            <p class="tl-org">Armakuni India Pvt. Ltd., Ahmedabad</p>
+            <p class="tl-desc">Senior-level engineering role with deep focus on backend reliability, performance and collaboration in a dynamic product environment.</p>
+          </div>
+        </article>
+        <article class="tl-item reveal">
+          <div class="tl-dot"></div>
+          <div class="tl-body">
+            <span class="tl-dates">Nov 2021 — Dec 2024</span>
+            <h3>Lead Associate — Data Analytics &amp; Backend Developer</h3>
+            <p class="tl-org">SecureKloud Tech. Ltd., Chennai</p>
+            <p class="tl-desc">Python developer &amp; analyst on Google benchmarking projects and AI-ML SaaS products: doc parsing &amp; classification, custom ML models, LLM integration, GCP/AWS/Azure APIs, and benchmarking metrics (Precision, Recall, F1) from structured reporting pipelines.</p>
+          </div>
+        </article>
+        <article class="tl-item reveal">
+          <div class="tl-dot"></div>
+          <div class="tl-body">
+            <span class="tl-dates">Jan 2020 — Nov 2021</span>
+            <h3>Freelance Python Developer</h3>
+            <p class="tl-org">Independent</p>
+            <p class="tl-desc">End-to-end delivery of Python projects — web apps, data tools and automation for clients.</p>
+          </div>
+        </article>
+        <article class="tl-item reveal">
+          <div class="tl-dot"></div>
+          <div class="tl-body">
+            <span class="tl-dates">Nov 2016 — Dec 2019</span>
+            <h3>GST Consultant</h3>
+            <p class="tl-org">Hiren Thakker &amp; Associates, CA</p>
+            <p class="tl-desc">Client consultation and relationship management in the GST domain — the foundation for my GST tooling projects (GST Auto, GST Task Manager, GSTIndia).</p>
+          </div>
+        </article>
+        <article class="tl-item reveal">
+          <div class="tl-dot"></div>
+          <div class="tl-body">
+            <span class="tl-dates">Feb 2013 — Feb 2016</span>
+            <h3>Article Assistant — Accounting, Auditing &amp; Corporate Law</h3>
+            <p class="tl-org">Hiren Thakker &amp; Associates, CA</p>
+            <p class="tl-desc">Early career exposure to compliance and documentation — trained in attention to detail and precise communication.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ───────────────────────── PROJECTS ──────────────────────── -->
+  <section id="projects" class="sec sec-alt">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="sec-kicker">04</span>
+        <h2>Selected projects</h2>
+        <p class="sec-sub">From production e-commerce to AI benchmarking pipelines — explore my open-source work on <a class="link" href="https://github.com/Nandraj" target="_blank" rel="noopener">GitHub</a>.</p>
+      </div>
+      <div class="project-grid">
+
+        <a class="project-card reveal" href="https://stylista007.in/" target="_blank" rel="noopener">
+          <span class="p-tag">E-commerce</span>
+          <h3>Stylista Fashion Shop</h3>
+          <p>Single-vendor e-commerce platform with a Flask backend, MySQL database and RESTful APIs.</p>
+          <span class="p-tech">Flask · SQLAlchemy · MySQL · JS · jQuery</span>
+        </a>
+
+        <a class="project-card reveal" href="https://github.com/Nandraj/Robbin" target="_blank" rel="noopener">
+          <span class="p-tag">Web App</span>
+          <h3>Robbin</h3>
+          <p>Task/work-management web solution for finance and legal consultants, built on Django + PostgreSQL.</p>
+          <span class="p-tech">Django · PostgreSQL · Bootstrap · OOPs</span>
+        </a>
+
+        <a class="project-card reveal" href="https://github.com/Nandraj/ThreeR_Kids_Nativescript_App" target="_blank" rel="noopener">
+          <span class="p-tag">Mobile</span>
+          <h3>3R Kids Mobile App</h3>
+          <p>Interactive multilingual education app for kindergarten children, cross-platform via Nativescript.</p>
+          <span class="p-tech">JavaScript · Nativescript · CSS · XML</span>
+        </a>
+
+        <a class="project-card reveal" href="https://github.com/Nandraj/GST_Auto_PyQt" target="_blank" rel="noopener">
+          <span class="p-tag">Desktop</span>
+          <h3>GST Auto</h3>
+          <p>GST client data access and auto-login desktop tool with Selenium — shipped in PyQt5 and Eel versions.</p>
+          <span class="p-tech">Python · PyQt5 · Eel · Selenium</span>
+        </a>
+
+        <a class="project-card reveal" href="https://github.com/Nandraj/GSTIndia/tree/master/GST_Tools_Flask_App" target="_blank" rel="noopener">
+          <span class="p-tag">Tools</span>
+          <h3>NR GST Tools</h3>
+          <p>Flask toolkit for GST workflows — Excel-to-JSON conversion and Excel reformatting.</p>
+          <span class="p-tech">Flask · MySQL · Bootstrap · jQuery</span>
+        </a>
+
+        <a class="project-card reveal" href="#contact">
+          <span class="p-tag">Internal</span>
+          <h3>Google Benchmarking Projects</h3>
+          <p>Doc parsing, classification, custom ML models and LLM integration at scale — GCP/AWS/Azure via REST APIs &amp; SDKs.</p>
+          <span class="p-tech">Pandas · NumPy · GCP SDK · boto3 · Azure SDK</span>
+        </a>
+
+        <a class="project-card reveal" href="#contact">
+          <span class="p-tag">Internal</span>
+          <h3>AI-ML SaaS Products</h3>
+          <p>Backend services with Flask, FastAPI, GCP and GenAI/RAG — including web scraping pipelines for ML teams.</p>
+          <span class="p-tech">Flask · FastAPI · SQLAlchemy · GCP · GenAI · RAG</span>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ─────────────────────── EDUCATION ───────────────────────── -->
+  <section id="education" class="sec">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="sec-kicker">05</span>
+        <h2>Education &amp; certifications</h2>
+      </div>
+      <div class="edu-grid">
+        <div class="edu-card reveal">
+          <h3>CA(I)</h3>
+          <p>The Institute of Chartered Accountants of India (ICAI)</p>
+          <span class="edu-year">2011 — 2016</span>
+        </div>
+        <div class="edu-card reveal">
+          <h3>CS(E)</h3>
+          <p>The Institute of Company Secretaries of India (ICSI)</p>
+          <span class="edu-year">2013 — 2014</span>
+        </div>
+      </div>
+      <div class="certs reveal">
+        <span class="cert">Kaggle — Python, Data Visualization, SQL</span>
+        <span class="cert">DataCamp — Python, SQL, Git, Shell</span>
+        <span class="cert">Udemy — Python, Python-OOP, Flask</span>
+        <span class="cert">FreeCodeCamp — Responsive Web Design</span>
+        <span class="cert">SoloLearn — Python, HTML, JS</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ───────────────────────── CONTACT ───────────────────────── -->
+  <section id="contact" class="sec sec-alt">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="sec-kicker">06</span>
+        <h2>Contact</h2>
+        <p class="sec-sub">Drop me an email if I can help you with anything.</p>
+      </div>
+      <div class="contact-grid">
+        <a class="contact-card reveal" href="mailto:rathodnandraj@gmail.com">
+          <div class="c-icon">✉</div>
+          <h3>Email</h3>
           <p>rathodnandraj@gmail.com</p>
+        </a>
+        <a class="contact-card reveal" href="tel:+918511906562">
+          <div class="c-icon">☎</div>
+          <h3>Phone</h3>
           <p>+91 851190 6562</p>
-      </footer>
-    <script src="src/app.js"></script>
-  </body>
+        </a>
+        <a class="contact-card reveal" href="https://github.com/Nandraj" target="_blank" rel="noopener">
+          <div class="c-icon">⌁</div>
+          <h3>GitHub</h3>
+          <p>github.com/Nandraj</p>
+        </a>
+        <a class="contact-card reveal" href="https://in.linkedin.com/in/nandraj-rathod" target="_blank" rel="noopener">
+          <div class="c-icon">in</div>
+          <h3>LinkedIn</h3>
+          <p>nandraj-rathod</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ───────────────────────── FOOTER ───────────────────────── -->
+  <footer class="foot">
+    <div class="wrap foot-inner">
+      <span>© 2026 Nandraj Rathod. Built with Python energy.</span>
+      <a href="#home" class="to-top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
 </html>
